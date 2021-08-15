@@ -41,7 +41,7 @@ export const MyForm = props => {
         onCancel={hidePicker}
         time={moment(values.myTime).toDate()}
       />
-      <Button title="Submit Time" color="#f05454" onPress={handleSubmit} />
+      <Button title="Confirm Time" color="#f05454" onPress={handleSubmit} />
     </View>
   );
 }
